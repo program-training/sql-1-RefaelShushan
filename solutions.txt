@@ -26,6 +26,8 @@ WHERE units_in_stock = 0
 8.
 SELECT AVG(unit_price) FROM Products; 
 9.
+SELECT SUM(unit_price*quantity) FROM order_details
+WHERE product_id = 7
 10.
 11.
 12.
