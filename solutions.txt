@@ -54,6 +54,9 @@ WHERE units_in_stock < 10 AND discontinued = 0
 SELECT (MAX(unit_price)),
  (MIN(unit_price)) FROM products
 19.
+SELECT * FROM Orders
+WHERE order_date = '1997-05-05'
+
 20.
 21.
 22.
