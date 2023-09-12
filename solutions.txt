@@ -8,6 +8,8 @@ FROM Products WHERE unit_price > 50
 SELECT * FROM Customers 
 WHERE country = 'Germany'
 3.
+SELECT * FROM Orders
+WHERE customer_id = 'VINET'  
 4.
 5.
 6.
