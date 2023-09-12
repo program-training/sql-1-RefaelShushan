@@ -58,5 +58,6 @@ SELECT * FROM Orders
 WHERE order_date = '1997-05-05'
 
 20.
+SELECT product_name, quantity_per_unit FROM products
 21.
 22.
