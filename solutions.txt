@@ -29,6 +29,7 @@ SELECT AVG(unit_price) FROM Products;
 SELECT SUM(unit_price*quantity) FROM order_details
 WHERE product_id = 7
 10.
+SELECT COUNT(category_id)FROM Products;
 11.
 12.
 13.
